@@ -47,6 +47,8 @@ async function getAllCourseList() {
   } catch (e) {
     console.log(e)
   }
+
+
 }
 
 const legendData = ref(['总人数','总成绩','平均成绩', '最高成绩', '最低成绩'])
